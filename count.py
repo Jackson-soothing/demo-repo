@@ -9,3 +9,5 @@ git ls-files "./*.py" | wc -l
 #count the lines seperately 
 git ls-files | xargs wc -l
 
+# count the necessary lines, blank, comment and codes
+cloc demo-repo
